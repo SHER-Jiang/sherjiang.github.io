@@ -5,60 +5,33 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
----
 
-{% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 🎓 Education
+* **Institute of Automation, Chinese Academy of Sciences (CASIA)** 
+* Ph.D. Degree 
+* Duration: Sep. 2026 – Present 
+* Advisor: Prof. Tieniu Tan 
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Wuhan University, School of Computer Science** 
+* Bachelor of Engineering
+* Duration: Sep. 2022 – Jun. 2026 
+* GPA: **3.96/4.0 (Rank: 1/58)**
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## 🏆 Honors & Awards
+* 2022-2023 National Scholarship
+* 2023-2024 National Scholarship
+* 2022-2023 First-Class Scholarship of Wuhan University 
+* 2023-2024 First-Class Scholarship of Wuhan University 
+* Lei Jun Innovation and Development Research Practice Fund
+* Lei Jun Innovation and Development Entrepreneurship Practice Fund
+
+
+## 🏅 Competitions Awards
+
+* The 3rd CCF "Sinan Cup" Quantum Computing Programming Challenge National First Prize
+* The 17th China University Computer Design Competition Central South Region Second Prize
+* The 14th Lanqiao Cup Information Technology Talent Competition National Third Prize
+* The 16th China University Computer Design Competition Central South Region Third Prize
+
