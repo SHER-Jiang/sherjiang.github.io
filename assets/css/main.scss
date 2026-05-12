@@ -42,7 +42,3 @@
     "vendor/font-awesome/brands"
 ;
 
-/* 隐藏侧边栏附近莫名出现的 sitemap 链接 */
-a[href*="sitemap"] {
-  display: none !important;
-}
