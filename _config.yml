@@ -23,12 +23,12 @@ repository               : "sirujiang/sirujiang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "jsr.png"
   name             : "Siru Jiang"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Beijing Haidian"
-  employer         : "Red Brick University"
+  employer         : "CASIA"
   uri              : # URL
   email            : "sirujiang324@gmail.com" 
 
