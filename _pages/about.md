@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "Siru Jiang"
-excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
