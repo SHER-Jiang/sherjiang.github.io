@@ -8,13 +8,11 @@ redirect_from:
 ---
 
 ## 🎓 Education
-**Institute of Automation, Chinese Academy of Sciences (CASIA)** <br>
-*Ph.D. Student* | Sep. 2026 – Present
-* **Advisor:** Prof. Tieniu Tan
+* **Institute of Automation, Chinese Academy of Sciences (CASIA)** <br>
+*Ph.D. Student* | Sep. 2026 – Present | **Advisor:** Prof. Tieniu Tan
 
-**Wuhan University, School of Computer Science** <br>
-*Bachelor of Engineering* | Sep. 2022 – Jun. 2026
-* **GPA:** 3.96 / 4.0 (**Rank: 1/58**)
+* **Wuhan University, School of Computer Science** <br>
+*Bachelor of Engineering* | Sep. 2022 – Jun. 2026 | **GPA:** 3.96 / 4.0 (**Rank: 1/58**)
   
 
 ## 🏆 Honors & Awards
