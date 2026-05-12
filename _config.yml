@@ -23,7 +23,7 @@ repository               : "sirujiang/sirujiang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jsr.jpg"
+  avatar           : "jsr.png"
   name             : "Siru Jiang"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
