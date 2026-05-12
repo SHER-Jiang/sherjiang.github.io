@@ -12,10 +12,7 @@ I am an incoming Ph.D. student at the **Institute of Automation, Chinese Academy
 
 Previously, I was an undergraduate student in **Wuhan University**, School of Computer Science.
 
-My research interests lie in the intersection of Computer Vision and Machine Learning, with a current focus on:
-* **Test-Time Adaptation (TTA):** Developing robust mechanisms for Vision-Language Models (e.g., CLIP) to handle distribution shifts.
-* **Multimodal Learning:** Exploring spatial reasoning and autonomous 3D world synthesis in large models.
-* **Efficient Fine-tuning:** Designing parameter-efficient adaptation methods like prompt tuning and self-ensembling.
+My research interests lie in Computer Vision and Machine Learning, with a current focus on Multimodal Learning.
 
 [**News**]
 * **[2026.05]** One paper on Unified Self-Ensembling for TTA was accepted by **ICML 2026** as a regular paper. See you in Seoul!
