@@ -11,12 +11,12 @@ redirect_from:
 * **Institute of Automation, Chinese Academy of Sciences (CASIA)** 
 * Ph.D. Degree 
 * Duration: Sep. 2026 – Present 
-* Advisor: Prof. Tieniu Tan 
+* **Advisor: Prof. Tieniu Tan **
 
 * **Wuhan University, School of Computer Science** 
 * Bachelor of Engineering
 * Duration: Sep. 2022 – Jun. 2026 
-* GPA: **3.96/4.0 (Rank: 1/58)**
+* **GPA: 3.96/4.0 (Rank: 1/58)**
   
 
 ## 🏆 Honors & Awards
