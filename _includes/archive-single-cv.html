@@ -12,65 +12,31 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 2.5em; align-items: flex-start;">
-  
-  {% if teaser %}
-  <div style="position: relative; flex: 1 1 250px; max-width: 300px;">
-    {% if post.venue %}
-    <div style="position: absolute; top: 0; left: 0; background-color: #0b3982; color: white; padding: 4px 10px; font-size: 0.85em; font-weight: bold; z-index: 1;">
-      {{ post.venue }}
-    </div>
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
     {% endif %}
-    
-    <img src=
-      {% if teaser contains "://" %}
-        "{{ teaser }}"
-      {% else %}
-        "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-      {% endif %}
-      alt="{{ title }}" style="width: 100%; border: 1px solid #eee; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); border-radius: 4px;">
-  </div>
-  {% endif %}
-
-  <div style="flex: 2 1 400px;">
-    <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0; margin-bottom: 8px; font-size: 1.15em;">
+    <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}" style="text-decoration: none; color: #1a5ac4;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: #1a5ac4;">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-
-    {% if post.authors %}
-      <div style="color: #444; margin-bottom: 8px; font-size: 0.95em; line-height: 1.4;">
-        {{ post.authors }}
-      </div>
-    {% elsif post.citation %}
-      <div style="color: #444; margin-bottom: 8px; font-size: 0.95em; line-height: 1.4;">
-        {{ post.citation }}
-      </div>
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-
-    <div style="margin-bottom: 12px; font-size: 0.95em;">
-      {% if post.projecturl %}
-        <a href="{{ post.projecturl }}" target="_blank" style="text-decoration: none; color: #1a5ac4; font-weight: 600; margin-right: 15px;">🌐 Project</a>
-      {% endif %}
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none; color: #1a5ac4; font-weight: 600; margin-right: 15px;">📄 PDF</a>
-      {% endif %}
-      {% if post.codeurl %}
-        <a href="{{ post.codeurl }}" target="_blank" style="text-decoration: none; color: #1a5ac4; font-weight: 600;">💻 Code</a>
-      {% endif %}
-    </div>
-
-    {% if post.excerpt %}
-    <details>
-      <summary style="cursor: pointer; font-weight: bold; color: #333; margin-bottom: 5px; user-select: none;">💡 Summary</summary>
-      <div style="margin-top: 10px; color: #555; font-size: 0.9em; line-height: 1.6; text-align: justify;">
-        {{ post.excerpt | markdownify }}
-      </div>
-    </details>
-    {% endif %}
-  </div>
-
+    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    </li>
+ </article>
 </div>
